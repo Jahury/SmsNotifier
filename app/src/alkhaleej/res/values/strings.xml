@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sms_prefix">$0#</string>
+    <string name="base_url">http://207.180.241.132:6675/PaymentService/api/v1/</string>
+    <string name="port">6675</string>
+</resources>
