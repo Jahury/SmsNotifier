@@ -5,7 +5,7 @@ android {
         config {
             keyAlias 'smshost'
             keyPassword 'at7719887600237078$sh#107'
-            storeFile file('P:/Projects/Android/keystores/apptech-release-keys.jks')
+            storeFile file('C:/Users/APPTECH INC/Git/keystores/apptech-release-keys.jks')
             storePassword '7719887600237078$jahury#apptech@net'
         }
     }

@@ -168,7 +168,7 @@ public class SignalRService extends Service {
                 log("no internet connection ");
                 return;
             }
-            mHubConnection = HubConnectionBuilder.create("http://207.180.241.132:6662/chatHub?username="+ Defines.TargetName).build();
+            mHubConnection = HubConnectionBuilder.create("http://207.180.210.165:6663/chatHub?username="+ Defines.TargetName).build();
             try {
                 mHubConnection.setServerTimeout(60000);
                 mHubConnection.setKeepAliveInterval(15000*10);
